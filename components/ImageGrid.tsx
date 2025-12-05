@@ -38,7 +38,7 @@ export default function ImageGrid({ images }: ImageGridProps) {
           <a
             href={image.src}
             download={`teenheads${String(image.id).padStart(2, "0")}.png`}
-            className="absolute bottom-3 right-3 p-2 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gray-100"
+            className="absolute bottom-3 right-3 p-2 bg-white rounded-full opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 hover:bg-gray-100"
             title="Download"
           >
             <Download size={16} className="text-zinc-700" />
