@@ -27,9 +27,15 @@ export default function Home() {
             <br />
             characters.
           </p>
-          <p className="text-md md:text-lg font-medium text-[#4A4A4A]">
-            Built by <a href="https://www.hendo.space/" className="text-grey-400 hover:underline">Hendo</a>.
+          <p className="text-md md:text-md font-medium text-[#4A4A4A]">
+            Built by <a href="https://www.hendo.space/" className="text-gray-800 hover:underline">Hendo</a>.
           </p>
+          <a 
+            href="mailto:hendersondike@gmail.com"
+            className="text-md md:text-md font-medium text-[#4A4A4A] hover:underline"
+          >
+            Request for a teenagehead
+          </a>
         </div>
         
       </header>
